@@ -1,9 +1,6 @@
 import numpy as np
 from scipy.stats import norm, boltzmann
 from matplotlib import pyplot as plt
-import seaborn as sns
-from copy import deepcopy
-sns.set()
 
 def kl_divergence(p, q):
     return np.sum(np.where(p != 0, p * np.log(p / q), 0))
