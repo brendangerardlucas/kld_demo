@@ -39,7 +39,7 @@ plt.show()
 
 #plot and calculate the KLD of every possible pair of these normal distributions
 figure_2 = plt.figure(2)
-figure_2.suptitle('A KLD pyplot Matrix of the Normal Distributions')
+figure_2.suptitle('A KLD pyplot Matrix of the Normal Distributions (P row, Q col)')
 
 normal_list = [standard_normal, deviant_normal, different_normal, other_normal]
 
